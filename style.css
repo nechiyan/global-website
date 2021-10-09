@@ -1,0 +1,386 @@
+body{
+	max-width: 1440px;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gordita Regular','Gordita Medium';
+}
+.wrapper{
+	width:90%;
+	margin: 0 auto;
+}
+@font-face {
+    font-family: 'Gordita Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('fonts/Gordita Regular'), url('fonts/Gordita Regular.woff') format('woff');
+    }
+@font-face {
+        font-family: 'Gordita Medium';
+        font-style: normal;
+        font-weight: normal;
+        src: local('fonts/Gordita Medium'), url('fonts/Gordita Medium.woff') format('woff');
+        }
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header .wrapper{
+	display: flex;
+    justify-content: space-between;
+	align-items: center;
+}
+header div.left{
+
+}
+header div.left h1{
+	width: 65%;
+}
+header div.left h1 a{
+	display: inline-block;
+}
+header div.left h1 a img{
+	display: block;
+	width: 100%;
+}
+header div.right{
+    
+}
+
+header div.right  ul{
+    display: flex;
+    align-items: center;
+	justify-content: space-between;
+	list-style: none;
+}
+header div.right  ul li{
+    margin-right: 40px;
+    
+}
+
+
+header div.right  ul li a{
+    color: #5B5A5D;
+	text-decoration: none;
+    transition: 0.77s ease-in-out;
+}
+
+header div.right  ul li a:hover{
+    color: #fff;
+    transition: 0.77s ease-in-out;
+    transform: scaleX(1.3);
+}
+
+header div.right  ul li a.button{
+    border-radius: 7px;
+    border: 1px solid #bb3e01;
+    padding: 11px 30px;
+    color: #bb3e01;
+}
+header div.right  ul li a.button:hover{
+    transition: 0.4s ease-in-out;
+    background: white;
+}
+#middle{
+
+}
+#middle div.spotlight{
+	display: flex;
+	justify-content: space-between;
+}
+#middle div.spotlight div.main{
+
+}
+#middle div.spotlight div.main h2{
+	color: white;
+	font-size: 50px;
+	margin-top: 70px;
+}
+#middle div.spotlight div.main h2 span{
+	color: #fb5200;
+}
+#middle div.spotlight div.main p{
+	color: #5B5A5D;
+    width: 421px;
+    font-size: 18px;
+}
+#middle div.spotlight div.main a{
+	
+}
+#middle div.spotlight div.main a.button{
+	border-radius: 7px;
+    background: linear-gradient(to right, red, purple);
+    display: inline-block;
+    width: 35%;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+#middle div.spotlight div.main a.button:hover{
+    transition: .4s ease-out;
+    background: black;
+}
+#middle div.spotlight div.main a.button span{
+    color: grey;
+}
+#middle div.spotlight div.img{
+	width: 40%;
+    
+}
+#middle div.spotlight div.img img{
+	display: block;
+	width: 100%;
+    margin-left: 48px;
+   
+}
+#middle div.spotlight div.bg{
+    width: 15%;
+    position: absolute;
+    right: 66px;
+}
+#middle div.spotlight div.bg img{
+    display: block;
+	width: 100%;
+    position: relative;
+    z-index: -1;
+    filter: blur(50px);
+    top: 40px;
+    left: 10px;
+}
+#middle div.spotlight div.bg2{
+    width: 18%;
+    position: absolute;
+    right: 360px;
+    top: 336px;
+}
+#middle div.spotlight div.bg2 img{
+    display: block;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    filter: blur(60px);
+}
+#card{
+
+}
+#card section.wrapper{
+
+}
+#card section.wrapper div.box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+#card section.wrapper div.box div.one{
+	border: 1px solid rgb(204, 75, 28);
+	border-radius: 15px;
+	padding: 1%;
+	margin-top: 100px;
+	transition: 0.4s ease-in-out;
+	cursor: pointer;
+	width: 100%;
+    margin-right: 15px;
+}
+#card section.wrapper div.box div.one:last-child{
+    margin-right: 0px;
+}
+#card section.wrapper div.box div.one:hover{
+    background: linear-gradient(to right bottom, #ff5300, #fc403b, #f0395b, #da3f74, #bf4984);
+    transition: 0.4s ease-in-out;
+    transform: scale(1.2);
+}
+#card section.wrapper div.box div.one div.top{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+#card section.wrapper div.box div.one div.top div.tg{
+    background-color: #525254;
+    border-radius: 15px;
+    padding: 5%;
+
+}
+#card section.wrapper div.box div.one div.top div.tg img{
+    display: block;
+    width: 100%;
+   
+}
+#card section.wrapper div.box div.one div.top p{
+	color: #958a8a;
+}
+#card section.wrapper div.box div.one div.middle{
+    width: 70%;
+}
+#card section.wrapper div.box div.one div.middle h4{
+    color: white;
+    font-size: 15px;
+    color: grey;
+    
+}
+#card section.wrapper div.box div.one div.middle p{
+    color: white;
+    margin-bottom: 50px;
+}
+#card section.wrapper div.box div.one div.middle div.mg{
+    width: 20%;
+}
+#card section.wrapper div.box div.one div.middle div.mg img{
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+}
+#card section.wrapper div.box div.one div.bottom{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: center;
+}
+#card section.wrapper div.box div.one div.bottom p{
+    color: white;
+}
+#card section.wrapper div.box div.one div.bottom div.bg{
+    margin-left: 50px;
+    width: 10%;
+}
+#card section.wrapper div.box div.one div.bottom div.bg img{
+    display: block;
+    width: 100%;
+}
+#last{
+
+}
+#last section.wrapper{
+    background: url(./Assets/Footer\ -\ image.png) no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+}
+#last section.wrapper div.content{
+    padding: 20px 60px;
+}
+#last section.wrapper div.content div.img{
+    display: block;
+    width: 100%;
+}
+#last section.wrapper div.content div.img h4{
+    font-size: 36px;
+    color: white;
+    font-family:'Gordita Medium' ;
+   
+}
+#last section.wrapper div.content div.img p{
+    color: #5B5A5D;
+}
+
+#last section.wrapper div.form{
+    position: relative;
+    width: 70%;
+    padding: 20px 60px;
+}
+#last section.wrapper div.form input{
+    padding: 20px 14px;
+    margin-bottom: 20%;
+}
+#last section.wrapper div.form a{
+    
+}
+#last section.wrapper div.form a.button{
+    padding: 18px 24px;
+    position: absolute;
+    border-radius: 7px;
+    background: linear-gradient(to right, red, purple);
+    display: inline-block;
+    left: 25%;
+    cursor: pointer;
+}
+footer{
+    
+}
+footer section.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer section.wrapper div.left{
+
+}
+footer section.wrapper div.left h1{
+
+}
+footer section.wrapper div.left h1 a{
+    text-decoration: none;
+}
+footer section.wrapper div.left h1 a img{
+    width: 55%;
+}
+footer section.wrapper div.left h1 p{
+    color: #5d5d5d;
+    font-size: 15px;
+}
+footer section.wrapper div.right{
+
+}
+footer section.wrapper div.right nav{
+
+}
+footer section.wrapper div.right nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+footer section.wrapper div.right nav ul li{
+    margin-left: 15px;
+    color:#5d5d5d;
+}
+section.wrapper div.right nav ul li a{
+    text-decoration: none;
+    color:#5d5d5d;
+    
+}
+footer section.wrapper div.right nav ul li span{
+    /* border-left-style: solid; */
+}
+footer section.wrapper div.right nav ul li span a{
+    color: tomato;
+}
+@media all and (max-width: 1280px){
+    header div.right ul {
+        width: 600px;
+    }
+    header div.left h1 a img {
+        width: 120%;
+    }
+    #card section.wrapper div.box div.one{
+        padding: 0%;
+    }
+    #card section.wrapper div.box div.one div.middle {
+        margin-left: 20px;
+    }
+
+}
+@media all and (max-width: 980px){
+    header div.right ul {
+        width: 500px;
+    }
+    header div.left h1 {
+        width: 100%;
+    }
+    header div.right ul li {
+        margin-right: 10px;
+    }
+    header div.left {
+        width: 120px;
+    }
+    header div.right {
+        width: 500px;
+    }
+    #middle div.spotlight div.bg2 {
+        width: 15%;
+        position: absolute;
+        right: 200px;
+        top: 236px
+    }
+    
+}
