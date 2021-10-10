@@ -534,5 +534,11 @@ footer section.wrapper div.right nav ul li span a{
     }    
 }
 @media all and (max-width: 480px){
-    
+      footer section.wrapper div.right{
+	      display: none;
+	}
+	footer section.wrapper div.right nav ul {
+        margin-left: 74px;
+		text-align: centre;
+    }
 }
