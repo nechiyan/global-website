@@ -189,7 +189,7 @@ header div.right  ul li a.button:hover{
 #card section.wrapper div.box div.one:hover{
     background: linear-gradient(to right bottom, #ff5300, #fc403b, #f0395b, #da3f74, #bf4984);
     transition: 0.4s ease-in-out;
-    transform: scale(1.2);
+    transform: scaleY(1.2);
 }
 #card section.wrapper div.box div.one div.top{
 	display: flex;
