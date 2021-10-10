@@ -537,8 +537,7 @@ footer section.wrapper div.right nav ul li span a{
       footer section.wrapper div.right{
 	      display: none;
 	}
-	footer section.wrapper div.right nav ul {
-        margin-left: 74px;
-		text-align: centre;
-    }
+	footer section.wrapper div.left {
+    		text-align: center;
+	}
 }
