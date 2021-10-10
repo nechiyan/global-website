@@ -282,6 +282,7 @@ header div.right  ul li a.button:hover{
 #last section.wrapper div.form input{
     padding: 20px 14px;
     margin-bottom: 20%;
+    border-radius: 7px;
 }
 #last section.wrapper div.form a{
     
@@ -347,16 +348,26 @@ footer section.wrapper div.right nav ul li span a{
 }
 @media all and (max-width: 1280px){
     header div.right ul {
-        width: 600px;
+        display: none;
     }
     header div.left h1 a img {
         width: 120%;
     }
-    #card section.wrapper div.box div.one{
-        padding: 0%;
+    #card section.wrapper div.box div.one {
+        padding: 10px 10px
     }
     #card section.wrapper div.box div.one div.middle {
         margin-left: 20px;
+    }
+    #middle div.spotlight div.bg2 {
+        right: 257px;
+        top: 278px;
+    }
+    #last section.wrapper div.form a.button {
+        left: 32%;
+    }
+    footer section.wrapper div.right {
+        width: 90%;
     }
 
 }
@@ -364,6 +375,7 @@ footer section.wrapper div.right nav ul li span a{
     header div.right ul {
         width: 500px;
     }
+    
     header div.left h1 {
         width: 100%;
     }
@@ -382,5 +394,145 @@ footer section.wrapper div.right nav ul li span a{
         right: 200px;
         top: 236px
     }
+    #middle div.spotlight div.main h2 {
+        font-size: 38px;
+        margin-top: 46px;
+    }
+    #middle div.spotlight div.main p {
+        width: 398px;
+        font-size: 17px;
+    }
+    #middle div.spotlight div.main a.button {
+        width: 40%;
+        padding: 7px;
+    }
+    #card section.wrapper div.box {
+        flex-wrap: wrap;
+    }
+    #card section.wrapper div.box div.one {
+        width: 40%;
+    }
+    #middle div.spotlight div.bg {
+        right: 20px;
+    }
+    #last section.wrapper div.content div.img h4 {
+        font-size: 29px
+    }
+    #last section.wrapper div.form a.button {
+        left: 40%
+    }
+    footer section.wrapper div.left h1 p {
+        font-size: 13px
+    }
+    footer section.wrapper div.right nav ul li {
+        display: none;
+    }
+    footer section.wrapper div.right nav ul li:last-child{
+        display: block;
+    }
+    footer section.wrapper div.right {
+        width: 45%;
+    }
+    #card section.wrapper div.box div.one div.top div.tg {
+        background:none;
+    }
+    #last section.wrapper div.form input {
+        padding: 15px 14px;
+    }
+    #last section.wrapper div.form a.button {
+        padding: 13px 24px
+    }
+    #card section.wrapper div.box div.one {
+        margin-right: 0%;
+    }
+}
+@media all and (max-width: 768px){
+    header div.right ul li{
+        display: none;
+    }
+    header div.right ul li:last-child{
+        display: block;
+    }
+    header div.right {
+        width: 163px
+    }
+    #middle div.spotlight div.main h2 {
+        font-size: 23px;
+        margin-top: 27px;
+    }
+    #middle div.spotlight div.main p {
+        width: 355px;
+        font-size: 15px;
+    }
+    #middle div.spotlight div.bg2 {
+        right: 170px;
+        top: 227px;
+    }
+    #middle div.spotlight div.main a.button {
+        width: 45%;
+        padding: 4px;
+    }
+    #last section.wrapper div.content div.img h4 {
+        font-size: 20px;
+    }
+    #last section.wrapper div.form a.button {
+        left: 45%;
+    }
+    footer section.wrapper div.right nav ul {
+        margin-left: 74px;
+    }
+
+}
+@media all and (max-width: 640px){
+    div.right nav ul {
+        margin-left: 0%;
+    }
+    #middle div.spotlight div.img img {
+        display: none;
+    }
+    #middle div.spotlight div.bg {
+        display: none;
+    }
+    #middle div.spotlight div.bg2 {
+        display: none;
+    }
+    #card section.wrapper div.box div.one {
+        width: 90%;
+        margin-top: 50px;
+    }
+    #middle div.spotlight div.main p {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    #last section.wrapper div.form a.button {
+        left: 55%;
+    }
+    footer section.wrapper div.right nav ul li span{
+        display: none;
+    }
+}
+@media all and (max-width: 480px){
+    #middle div.spotlight div.main p {
+        width: 313px;
+        font-size: 13px;
+    }
+    #middle div.spotlight div.main a.button {
+        width: 51%
+    }
+    #last section.wrapper div.content {
+        padding: 20px 38px;
+    }
+    #last section.wrapper div.form {
+        padding: 20px 36px;
+    }
+    #last section.wrapper div.form a.button {
+        left: 32%;
+        bottom: 9%;
+    }
+    #last section.wrapper div.form input {
+        width: 88%;
+    }    
+}
+@media all and (max-width: 480px){
     
 }
